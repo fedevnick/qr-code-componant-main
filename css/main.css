@@ -1,0 +1,44 @@
+*{
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: rgb(187, 210, 245);
+}
+
+.container {
+    width: 300px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20vh auto;
+    
+    background-color: #fff;
+}
+
+.qr-container {
+    width: 100%;
+}
+
+.qr-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.description {
+    margin: 20px;
+    text-align: center;
+}
+
+.description__intro {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    color: rgb(46, 51, 65);
+}
+.description__scan {
+    font-size: 14px;
+    color:rgb(146, 146, 146); 
+}
